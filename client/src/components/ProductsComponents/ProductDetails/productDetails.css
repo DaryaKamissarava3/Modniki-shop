@@ -1,0 +1,128 @@
+.product-container {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.product-inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-images {
+  display: flex
+}
+
+.prod-img {
+  width: 600px;
+  height: 900px;
+}
+
+.product-description {
+  margin-left: 100px;
+  line-height: 50px;
+}
+
+.prod-name {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.prod-price {
+  font-size: 24px;
+}
+
+.prod-price-currency {
+  margin-right: 10px;
+}
+
+.prod-status {
+  color: #D8D8D8;
+  font-size: 20px;
+}
+
+.prod-color-square {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #000F08;
+}
+
+.prod-sizes {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.buttons-to-add {
+  display: flex;
+}
+
+.wish-button {
+  margin-top: 40px;
+  margin-left: 2px;
+  width: 98px;
+  height: 90px;
+  cursor: pointer;
+  background-color: #000F08;
+}
+
+/*Accordion
+======================*/
+.accordion{
+  margin-top: 50px;
+  padding-right: 50px;
+}
+.accordion_item{
+  margin-bottom: 10px;
+}
+
+.accordion_item.active
+.accordion_content{
+  display: block;
+
+}
+
+.accordion_item.active
+.accordion_header{
+  border-bottom-color: #8C8C8C;
+}
+
+.accordion_item.active
+.accordion_header::after{
+  transform: translateY(-50%) rotate(-45deg);
+  margin-top: 5px;
+}
+
+.accordion_header{
+  padding: 5px 20px 5px 35px;
+  position: relative;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+.accordion_header::after{
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+
+  border-top: 2px solid #8C8C8C;
+  border-right: 2px solid#8C8C8C;
+
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  z-index: 1;
+
+  transform: translateY(-50%) rotate(135deg);
+
+}
+.accordion_content{
+  display: none;
+  font-size: 20px;
+  color: #8C8C8C;
+  font-weight: 400;
+}
+
+.accordion-title{
+  font-size: 24px;
+  color: #000F08;
+  text-transform: uppercase;
+}

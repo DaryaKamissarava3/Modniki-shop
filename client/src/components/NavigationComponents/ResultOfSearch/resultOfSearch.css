@@ -1,0 +1,19 @@
+.btn-show-more {
+  width: 250px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 26px;
+  color: #ffffff;
+  background-color: #000000;
+  display: block;
+  margin: 0 auto;
+  transition: color .3s, background-color .5s;
+}
+
+.btn-show-more:hover {
+  color: #000000;
+  background-color: #F5BD41;
+  border: none;
+  box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}

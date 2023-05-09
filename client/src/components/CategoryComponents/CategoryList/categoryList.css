@@ -1,0 +1,14 @@
+.products-list {
+  margin-bottom: 100px;
+  background-color: #FFFFFF;
+}
+
+.section-subtitle {
+  margin-left: 40%;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+

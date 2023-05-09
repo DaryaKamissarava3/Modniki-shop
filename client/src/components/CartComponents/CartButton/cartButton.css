@@ -1,0 +1,18 @@
+.add-to-bag-button{
+  margin-top: 40px;
+  width: 380px;
+  height: 90px;
+  font-size: 26px;
+  color: #FFFFFF;
+  background-color: #000F08;
+  cursor: pointer;
+}
+
+.disable-btn{
+  margin-top: 40px;
+  width: 380px;
+  height: 90px;
+  font-size: 26px;
+  color: #FFFFFF;
+  background-color: #D8D8D8;
+}

@@ -1,0 +1,16 @@
+.product-img{
+  width: 350px;
+  height: 500px;
+  transition: box-shadow .3s;
+}
+
+.product-img:hover {
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 500px) {
+  .product-img{
+    width: 150px;
+    height: 200px;
+  }
+}

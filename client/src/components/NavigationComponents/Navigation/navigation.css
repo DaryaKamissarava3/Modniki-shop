@@ -1,0 +1,31 @@
+.navigation {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 500;
+  display: flex;
+  justify-content: end;
+  font-size: 24px;
+  padding: 20px 100px 30px 0;
+}
+
+.nav-login {
+  margin-right: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000000;
+}
+
+.nav-login:hover,
+.nav-registration:hover{
+  color: #D83F87;
+  text-decoration: underline;
+}
+
+.nav-registration {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000000;
+}
+

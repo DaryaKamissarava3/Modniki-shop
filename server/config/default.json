@@ -1,0 +1,5 @@
+{
+  "serverPort": 5000,
+  "dbUrl": "mongodb+srv://Darya_3:bdk2165920@online-shop.skwc5bd.mongodb.net/?retryWrites=true&w=majority",
+  "secretKey": "online-shop-secret-key"
+}

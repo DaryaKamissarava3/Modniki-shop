@@ -1,0 +1,27 @@
+.product-cost{
+  display: flex;
+  justify-content: left;
+}
+
+.product-currency{
+  font-size: 24px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.product-currency-value{
+  font-size: 24px;
+}
+
+.card-item{
+  margin-right: 24px;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.like-note{
+  position: absolute;
+  left: 85%;
+  top: 2%;
+  z-index: 500;
+}

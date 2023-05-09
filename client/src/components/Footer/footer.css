@@ -1,0 +1,27 @@
+.footer {
+  background-color: #ffffff;
+}
+
+.footer-inner {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-item-title {
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: #000000;
+}
+
+.footer-link {
+  font-size: 18px;
+  line-height: 50px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #F5BD41;
+}
